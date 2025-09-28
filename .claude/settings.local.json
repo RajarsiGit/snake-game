@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: Complete Snake Game implementation\n\n- React-based Snake Game with Vite and Tailwind CSS\n- Game features: start screen, pause functionality, game over state, score tracking\n- Grid-based 20x20 game board with real-time movement\n- Keyboard controls using arrow keys\n- Collision detection for walls and self-collision\n- Random food generation that avoids snake segments\n- Refactored nested ternary operations for better readability\n- Fixed React Hook dependencies and key prop warnings\n- Enhanced index.html with SEO meta tags and Open Graph support\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push:*)"
     ],
     "deny": [],
     "ask": []
